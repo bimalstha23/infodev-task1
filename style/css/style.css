@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.container {
+  margin: 123px 120px 0px 120px;
+}
+.container .card-wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, 171px);
+  gap: 20px;
+}
+.container .card-wrapper .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 171px;
+  width: 171px;
+  box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
+  color: #1A1A1A;
+}
+.container .inroCard-Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 171px;
+  width: 171px;
+}
+.container .introCard-Wrapper {
+  display: inline-flex;
+  gap: 20px;
+}
+.container .introCard-Wrapper .introCard {
+  width: 266px;
+  height: 171px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #2159AB;
+}
+.container .introCard-Wrapper .introCard .User-Profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .introCard-Wrapper .introCard .User-Profile .img {
+  margin-right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.container .introCard-Wrapper .introCard .User-Profile .user-name {
+  font-weight: 400;
+  font-size: 14px;
+}
+.container .introCard-Wrapper .EndCard {
+  width: 266px;
+  height: 171px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #2159AB;
+  font-size: 12px;
+  color: #666666;
+}
+.container .introCard-Wrapper .EndCard .date {
+  margin-left: 16px;
+}
+.container .introCard-Wrapper .EndCard .time {
+  margin-left: auto;
+  margin-right: 16px;
+}
+.container .introCard-Wrapper .introbigCard {
+  width: 553px;
+  height: 171px;
+  flex-grow: 1;
+  border: 1px solid #2159AB;
+}
+.container .introCard-Wrapper .introbigCard .Card-Content {
+  padding: 16px;
+}
+.container .introCard-Wrapper .introbigCard .Card-Content h4 {
+  color: #1A1A1A;
+  font-size: 16px;
+  margin: 0;
+}
+.container .introCard-Wrapper .introbigCard .Card-Content p {
+  color: #666666;
+  margin: 16px, 0;
+}
+.container .introCard-Wrapper .introbigCard .Card-Content .date {
+  margin: 0;
+  margin-top: 27px;
+  text-align: end;
+  font-size: 12px;
+}
+.container .Gallary {
+  margin-top: 64px;
+}
+.container .Gallary h3,
+.container .Gallary p {
+  margin: 0;
+}
+.container .Gallary-title {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .Gallary-title .title {
+  color: #1A1A1A;
+}
+.container .Gallary-title .subtitle {
+  color: #666666;
+}
+.container .Gallary-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 16px;
+}
+.container .Gallary-images img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.container .paragraph-Section .title {
+  font-weight: 500;
+  font-size: 16px;
+}
+.container .paragraph-Section .paragraph {
+  color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+}
+.container .paragraph-Section .paragraph .side-paragraph {
+  width: 553px;
+}
+.container .image-paragraph {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .image-paragraph .sideImage {
+  height: 300px;
+  width: 457px;
+  object-fit: cover;
+}
+.container .image-paragraph .side-Paragraph .heading {
+  text-align: left;
+  color: #1A1A1A;
+}
+.container .image-paragraph .side-Paragraph .paragraph {
+  margin-top: 24px;
+  color: #666666;
+}

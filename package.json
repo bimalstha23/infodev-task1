@@ -1,0 +1,15 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass --watch --no-source-map style/sass/style.scss style/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
