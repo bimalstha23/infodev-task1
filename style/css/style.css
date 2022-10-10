@@ -9,7 +9,7 @@ body {
 .container .card-wrapper {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(auto-fill, 171px);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
 }
 .container .card-wrapper .card {
@@ -17,22 +17,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 171px;
-  width: 171px;
   box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
   color: #1A1A1A;
 }
-.container .inroCard-Wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 171px;
-  width: 171px;
-}
 .container .introCard-Wrapper {
+  margin-top: 24px;
   display: inline-flex;
   gap: 20px;
 }
 .container .introCard-Wrapper .introCard {
+  flex-grow: 1;
   width: 266px;
   height: 171px;
   display: flex;
@@ -43,6 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 226px;
 }
 .container .introCard-Wrapper .introCard .User-Profile .img {
   margin-right: 8px;
@@ -55,6 +50,7 @@ body {
   font-size: 14px;
 }
 .container .introCard-Wrapper .EndCard {
+  flex-grow: 2;
   width: 266px;
   height: 171px;
   display: flex;
@@ -72,9 +68,9 @@ body {
   margin-right: 16px;
 }
 .container .introCard-Wrapper .introbigCard {
-  width: 553px;
+  width: 621px;
   height: 171px;
-  flex-grow: 1;
+  flex-grow: 2;
   border: 1px solid #2159AB;
 }
 .container .introCard-Wrapper .introbigCard .Card-Content {
@@ -95,32 +91,32 @@ body {
   text-align: end;
   font-size: 12px;
 }
-.container .Gallary {
+.container .gallary {
   margin-top: 64px;
 }
-.container .Gallary h3,
-.container .Gallary p {
+.container .gallary h3,
+.container .gallary p {
   margin: 0;
 }
-.container .Gallary-title {
+.container .gallary-title {
   margin: 0px;
   display: flex;
   justify-content: space-between;
 }
-.container .Gallary-title .title {
+.container .gallary-title .title {
   color: #1A1A1A;
 }
-.container .Gallary-title .subtitle {
+.container .gallary-title .subtitle {
   color: #666666;
 }
-.container .Gallary-images {
+.container .gallary-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   column-gap: 20px;
   row-gap: 16px;
 }
-.container .Gallary-images img {
+.container .gallary-images img {
   width: 100%;
   height: 170px;
   object-fit: cover;
@@ -133,6 +129,7 @@ body {
   color: #666666;
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.5;
 }
 .container .paragraph-Section .paragraph .side-paragraph {
   width: 553px;
@@ -153,4 +150,5 @@ body {
 .container .image-paragraph .side-Paragraph .paragraph {
   margin-top: 24px;
   color: #666666;
+  line-height: 21px;
 }

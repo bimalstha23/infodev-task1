@@ -5,51 +5,32 @@ body {
     font-family: 'Roboto';
 }
 
-// .container{
-//     margin: 123px 120px 0px 120px;
-//     .card-wrapper{
-//         display: inline-flex;
-//         flex-wrap: wrap;
-//         gap: 20px;
-//         .card{
-//             width: 171px;
-//             height: 171px;
-//         }
-//     }
-// }
 .container {
     margin: 123px 120px 0px 120px;
 
     .card-wrapper {
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: repeat(auto-fill, 171px);
+        grid-template-columns: repeat(6, 1fr);
         gap: 20px;
-
         .card {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 171px;
-            width: 171px;
             box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
             color: $primaryColor;
         }
     }
 
-    .inroCard-Wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 171px;
-        width: 171px;
-    }
 
     .introCard-Wrapper {
+        margin-top: 24px;
         display: inline-flex;
         gap: 20px;
 
         .introCard {
+            flex-grow: 1;
             width: 266px;
             height: 171px;
             display: flex;
@@ -60,6 +41,7 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                width: 226px;
 
                 .img {
                     margin-right: 8px;
@@ -76,6 +58,7 @@ body {
         }
 
         .EndCard {
+            flex-grow: 2;
             width: 266px;
             height: 171px;
             display: flex;
@@ -96,9 +79,9 @@ body {
         }
 
         .introbigCard {
-            width: 553px;
+            width: 621px;
             height: 171px;
-            flex-grow: 1;
+            flex-grow: 2;
             border: 1px solid #2159AB;
 
             .Card-Content {
@@ -125,7 +108,7 @@ body {
         }
     }
 
-    .Gallary {
+    .gallary {
         margin-top: 64px;
 
         h3,
@@ -172,7 +155,7 @@ body {
             color: $secondaryColor;
             font-weight: 400;
             font-size: 14px;
-
+            line-height: 1.5;
             .side-paragraph {
                 width: 553px;
             }
@@ -198,6 +181,7 @@ body {
             .paragraph {
                 margin-top: 24px;
                 color: $secondaryColor;
+                line-height: 21px;
             }
         }
     }
